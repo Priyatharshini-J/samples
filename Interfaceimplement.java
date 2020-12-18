@@ -69,7 +69,7 @@ class Interfaceimplement{
     	int gear = in.nextInt ();
     	System.out.println ("How much speed should be increased?");
     	int increment = in.nextInt ();
-    	System.out.println ("How much speed should be increased?");
+    	System.out.println ("How much speed should be decreased?");
     	int decrement = in.nextInt ();
 		bike.changingGear(gear);
 		bike.speedingUp(increment);
@@ -80,7 +80,7 @@ class Interfaceimplement{
     	int cgear = in.nextInt ();
     	System.out.println ("How much speed should be increased?");
     	int cincrement = in.nextInt ();
-    	System.out.println ("How much speed should be increased?");
+    	System.out.println ("How much speed should be decreased?");
     	int cdecrement = in.nextInt ();
 		car.changingGear(cgear);
 		car.speedingUp(cincrement);
