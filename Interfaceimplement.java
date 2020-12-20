@@ -76,7 +76,7 @@ class Interfaceimplement{
 		bike.braking(decrement);
 		System.out.println("Bike Gear : " + bike.getGear() + "   Bike Speed : " + bike.getSpeed());
 		System.out.println ("Car started.");
-		System.out.println ("Tell me the gear of the bike");
+		System.out.println ("Tell me the gear of the car");
     	int cgear = in.nextInt ();
     	System.out.println ("How much speed should be increased?");
     	int cincrement = in.nextInt ();
